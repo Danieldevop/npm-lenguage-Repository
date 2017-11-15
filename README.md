@@ -10,12 +10,12 @@ a la mitad y unir con un guión en medio
 ## Instalation
 
 ```
-npm install platzom
+npm install kripton
 ```
 ## How to use 
 
 ```
-import kripton from 'kripton'
+var kripton = require("kripton").default
 
 console.log(kripton('programar')) // Program
 console.log(kripton('zorro')) // Zorrope
