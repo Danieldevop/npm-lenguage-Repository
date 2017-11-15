@@ -1,0 +1,25 @@
+{
+  "name": "kripton",
+  "version": "0.1.0",
+  "description": "Traductor de idioma",
+  "main": "dist/src/kripton.js",
+  "scripts": {
+    "build": "babel src/kripton.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Danieldevop/npm-lenguage-Repository.git"
+  },
+  "keywords": [
+    "idiom"
+  ],
+  "author": "Daniel Sepulveda <daniel.sendmemail@gmail.com> (https://twitter.com/Danieldevop)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
